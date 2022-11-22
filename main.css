@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 16px 0;
+
+}
+
+header,
+#about {
+    display: flex;
+}
+
+header,
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+.cabeçalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header img {
+    height: 200px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #063970;
+}
+
+#about {
+    background-color: #eeeee4;
+}
+
+.lista-um img {
+    height: 24px;
+}
+
+.lista-um li {
+    display: inline;
+    margin-left: 32px;
+}
+
+.codigos {
+    height: 400px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sobre-nos h2,
+#services h2 {
+    margin-bottom: 16px;
+    color: #063970;
+    text-align: center;
+}
+
+.sobre-nos p {
+    text-align: justify;
+    margin-left: 32px;
+    color: #063970;
+}
+
+.services p {
+    display: block;
+    color: #063970;
+    text-align: justify;
+    
+}
+
+#services {
+    background-color: #eeeee4;
+}
+
+.work {
+    display: block;
+    height: 500px;
+    width: auto;
+    margin: 50px auto;
+}
+
+.services h2 {
+    margin-top: 50px;
+}
+
+#contact h3 {
+    text-align: left;
+    margin-bottom: 32px;
+    color: #063970;
+}
+
+form input {
+    margin-bottom: 5px;
+    background-color: #eeeee4;
+}
+
+form button:hover {
+    background-color: #eeeee4;
+}
+
+textarea {
+    width: 507px;
+    background-color: #eeeee4;
+    resize: none;
+}
+
+button {
+    background-color: #063970;
+    color: #eeeee4;
+    cursor: pointer;
+}
+
+input:focus,
+textarea:focus {
+    outline-color: #063970;
+}
+
+.redes-sociais li img {
+    width: 32px;
+}
+
+.social li {
+    display: inline;
+}
+
+.social img {
+    margin-right: 54px;
+    margin-bottom: 30px;
+}
+
+#contact {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    display: inline;
+    align-items: center;
+    
+}
+
+#contact h2 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: #063970;
+    font-weight: bold;
+}
